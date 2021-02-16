@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^(.*)$ /home/<YOUR USERNAME HERE>/public_html/main.cgi/$1 [L]
