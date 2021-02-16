@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head lang="es">
+        {% include head.html %}
+    </head>
+    
+    <body>
+        <header>
+            {% include header.html %}
+        </header>
+
+        <article id="inicio">
+            <section class="sectionHerramientas" id="calculadoras">
+            
+                <h2>CALCULADORAS NUTRICIONALES</h2>
+
+                <h3>Cálculo del IMC</h3>
+                <form action="/" method="POST">
+                    <label for="weight">Peso</label>
+                    <input type="number" inputmode="numeric" class="form-control" id="weight" name="weight" placeholder="Introduzca su Peso en kg">
+
+                    <label for="height">Altura</label>
+                    <input type="number" inputmode="numeric" class="form-control" id="height" name="height" placeholder="Introduzca su Altura en cm">
+
+                    <button class="btnCalculate">Calcular</button>
+                </form>
+
+                <h4 id="imc" class="result"> IMC = {{imc}} %</h4>
+                
+                <br/>
+                
+                <h3>Estimaciones de Talla y Peso</h3>
+                <h3>Cálculo de Peso Ideal y Ajustado</h3>
+                <h3>Requerimientos Energéticos y Proteicos</h3>
+                <h3>Percentiles de Dinamometría</h3>
+                        
+            </section>
+        </article>
+
+        <footer>
+		    {% include footer.html %}
+		</footer>
+    </body>
+</html>
