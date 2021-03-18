@@ -1,5 +1,7 @@
 # NutrenApp
 
+(en desarrollo)
+
 NutrenApp es una web app enfocada a profesionales sanitarios, que contiene diferentes calculadoras nutricionales:
 
 * Calculo del IMC
